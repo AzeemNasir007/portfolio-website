@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azeem Nasir Portfolio</title>
+  <link rel="shortcut icon" href="img/icon.ico">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <style>
+    body {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+<header class="page-header">
+  <img src="http://via.placeholder.com/200x70" alt="Picture of my logo" class="page-header__item">
+<nav class="main-navigation page-header__item"> 
+  <ul role="menubar" class="navigation-list">
+    <li role="presentation">
+      <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+    </li>
+    <li role="presentation">    
+      <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+    </li>
+    <li role="presentation">
+      <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+    </li>
+    <li role="presentation">    
+      <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+    </li>
+  </ul>
+</nav>
+</header>
+
+<main>
+<h1>Contact</h1>
+
+<div>
+  1925 Ralston Way<br>
+  Hayward 94591<br>
+  California<br>
+  <br>
+  Tel <a href="tel:+1 5306352548">+1 5306352548</a>
+  Skype <a href="skype:AzeemNasirSkype">AzeemNasirSkype</a>
+  Email <a href="mailto:azeem_nasir@outlook.com">azeem_nasir@outlook.com</a>
+  <a href="mailto:azeem_nasir@outlook.com">Contact me</a>
+</div>
+<form action="" method="post" id="contact-form">
+  <label class="standard-label" for="contact-email">E-mail: </label>
+  <input type="email" id="contact-email" required><br>
+
+  <label class="standard-label" for="contact-telephone">Telephone: </label>
+  <input type="Tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone"><br>
+
+  <label="">Message: </label>
+  <textarea maxlength="240" required></textarea><br>
+
+  <input type="submit" value="Send message">
+</form> 
+</main>
+
+<footer>
+  <p>Find me on</p>
+  <div class="social-media">
+    <img src="img/github_icon.svg" alt="Github">
+    <img src="img/twitter_icon.svg" alt="Twitter">
+    <img src="img/linkedin_icon.svg" alt="LinkedIn">
+  </div>
+</footer>
+
+<script src="js/tota11y.min.js"></script>
+</body>
