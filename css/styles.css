@@ -153,7 +153,7 @@ button:hover, button:focus {
     grid-gap: 10px;
   }
 }
-  .grid__item:last-child {
+  .grid__item:  last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
@@ -276,4 +276,3 @@ button, .button {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-
